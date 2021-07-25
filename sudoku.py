@@ -162,7 +162,7 @@ if __name__ == "__main__":
     screen = display.set_mode((800, 600))
     display.set_caption('Sudoku')
     grid_coords = (0, 0)
-    grid_pic = transform.scale(image.load(r'D:\Soft\PROGRAMMING\python projects\stuff\empty_sudoku_field.png'), (501, 499))
+    grid_pic = transform.scale(image.load(r'empty_sudoku_field.png'), (501, 499))
     grid_pic_rect = grid_pic.get_rect()
     chosen_cell = Surface((51, 51))
     check_lable = fnt.render("ПРОВЕРИТЬ", True, orange)
